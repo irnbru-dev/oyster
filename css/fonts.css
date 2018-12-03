@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Futura";
+    src: url("../fonts/Futura/futurabookc.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Futura/futurabookc.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Studio';
+    src: url('../fonts/Studio/SSCR.ttf') format('truetype'),
+    url('../fonts/Studio/SSCR.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Studio";
+    src: url("../fonts/Studio/SSCR.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Studio/SSCR.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url("../fonts/BebasNeue/BebasNeueCyrillic.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/BebasNeue/BebasNeueCyrillic.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,47 @@
+.form {
+  background: url("../img/form.jpg");
+  color: @white;
+  text-align: center;
+  padding: 90px 0;
+
+  input[type='submit'] {
+    display: block;
+    margin: 30px auto;
+    background: rgba(255,255,255,0.2);
+  }
+
+  &__link {
+    font-family: 'Studio';
+    font-size: 34px;
+    color: @white;
+    padding-bottom: 50px;
+    &:hover {
+      color: @white;
+      text-decoration: none;
+    }
+  }
+}
+
+input[type='text'] {
+  margin-right: 30px;
+}
+
+input {
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  outline: 1px solid @white;
+  color: @white;
+  border:0;
+
+  &::placeholder {
+    color: @white;
+  }
+
+  &:hover {
+    outline: 2px solid @white;
+    background: rgba(0,0,0, 0.2);
+    transition: background .3s ease-out;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,35 @@
+.footer {
+  padding: 40px 0;
+
+  &__top {
+    padding-bottom: 20px;
+  }
+
+  .row {
+    align-items: center;
+  }
+
+  &__link {
+    font-family: 'BebasNeue';
+    font-size: 22px;
+    color: @blue;
+    display: block;
+
+    &:hover {
+      color: @brown;
+      transition: color .2s ease-out;
+    }
+  }
+
+  &__bottom {
+    border-top: 1px solid #c3ccd5;
+    padding-top: 40px;
+
+    a {
+      color: @brown;
+      &:hover {
+        color: @brown;
+      }
+    }
+  }
+}
